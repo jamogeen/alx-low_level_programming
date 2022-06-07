@@ -18,11 +18,11 @@ int main(void)
 		putchar(ln);
 		ln++;
 	}
-	Un = 'A';
-	while (Un <= 'Z')
+	ln = 'A';
+	while (ln <= 'Z')
 	{
-		putchar(Un);
-		Un++;
+		putchar(ln);
+		ln++;
 	}
 	putchar('\n');
 	return (0);
