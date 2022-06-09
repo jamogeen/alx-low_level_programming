@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - create n x n multiplication table but less than 15
- * @n: expect n 
+ * @n: expect n
  */
 void print_times_table(int n)
 {
