@@ -4,7 +4,7 @@
 /**
  * print_to_98 - creates maths times table
  *
- *@n: expect n
+ *@n: expect n as the input table
  */
 void print_to_98(int n)
 {
