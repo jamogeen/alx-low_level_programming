@@ -5,7 +5,7 @@
  *@n: expect n
  * Return: Always 0.
  */
-int print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
@@ -13,16 +13,19 @@ int print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
-	else if (n > 0 && n != 0;)
-
+	else if (n > 0 && n != 0)
+	{
 		for (i = 0; i < n; i++)
 		{
-			for (j = 0; j < i; j++)
+			for (j = 1; j <= i; j++)
 			{
 				_putchar(' ');
 			}
 			_putchar('\\');
+			if (i != n)
+			{
+				_putchar('\n');
+			}
 		}
-		_putchar('\n');
 	}
 }
