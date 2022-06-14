@@ -1,7 +1,7 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * rev_strin - print char in pointer in reverse
+ * rev_string - print char in pointer in reverse
  *@s: expect s
  */
 void rev_string(char *s)
