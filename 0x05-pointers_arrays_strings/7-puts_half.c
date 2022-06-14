@@ -19,13 +19,14 @@ void puts_half(char *str)
 		{
 			_putchar(str[n]);
 		}
-		else
+	}
+	else
+	{
+		n = (length - 1) / 2;
+		for (n; n < length; n++)
 		{
-			n = (length - 1) / 2;
-			for (n; n < length; n++)
-			{
-				_putchar(str[n]);
-			}
+			_putchar(str[n]);
 		}
-		_putchar('\n');
+	}
+	_putchar('\n');
 }
