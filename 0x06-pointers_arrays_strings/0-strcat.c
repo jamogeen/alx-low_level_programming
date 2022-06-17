@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 /**
  * _strcat -  concatenates two strings
  *@dest: expect dest
@@ -10,12 +11,14 @@ char *_strcat(char *dest, char *src)
 {
 	int i, x, length;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	length = 0;
+
+	for (i = 0; *(dest + i) != '\0'; i++)
 	{
 		length++;
 	}
 
-	for (x = 0; src[x] != '\0'; length++)
+	for (x = 0; *(src + x) != '\0'; length++)
 	{
 		dest[length] = src[x];
 		x++;
